@@ -77,7 +77,3 @@ function game() {
   }
 }
 game();
-const input = document.querySelector('input');
-input.addEventListener('input', (a) => {
-  console.log(a.target.value);
-});
